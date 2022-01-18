@@ -6,7 +6,7 @@ from post.models import Post
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-        size = 1_000
+        size = 2_000
         for i in range(size):
             print(i, "/", size)
 

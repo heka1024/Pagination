@@ -5,13 +5,13 @@
 # 실험 준비 방법
 ## 파이썬 패키지 설치
 ```bash
-poetry init
+poetry install
 ```
 을 통해 파이썬 패키지를 설치할 수 있습니다. 의존성은 `pyproject.toml`에서 확인할 수 있습니다.
 
 ## 데이터베이스 준비
 ```bash
-docker-compose -f docker-compose.dev.yml up -d
+docker-compose up -d
 ```
 도커를 통해 실험과 동일한 환경의 DB를 준비할 수 있습니다.
 

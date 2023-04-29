@@ -54,5 +54,3 @@ class Post(TimeMixin, models.Model):
     class Meta:
         ordering = ["-id"]
 
-
-e
